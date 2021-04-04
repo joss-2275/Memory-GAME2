@@ -121,6 +121,12 @@ body {
     height: 150px;
 }
 
+.match-card {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+}
+
 @media (max-width: 600px) {
   .game-container {
     grid-template-columns: repeat(2, auto)
