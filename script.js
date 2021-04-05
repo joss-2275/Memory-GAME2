@@ -1,7 +1,7 @@
 function ready() {
     let overlays = Array.from(document.getElementsByClassName('overlay-text'));
     let cards = Array.from(document.getElementsByClassName('card'));
-    let game = new MatchCards(100, cards);
+    let game = new MatchCards(60, cards);
 
     overlays.forEach(overlay => {
         overlay.addEventListener('click', () => {
@@ -127,3 +127,7 @@ if (document.readyState === 'loading') {
 } else {
     ready();
 }
+
+
+
+// lots of the Js code was done following this tutorial https://www.youtube.com/watch?v=3uuQ3g92oPQ, some parts had to be modified as parts did not work properly.
