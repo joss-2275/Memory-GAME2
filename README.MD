@@ -36,3 +36,7 @@ OTHER SOURCES-
 
 MEDIA- 
 -All images taken from google.
+
+DEPLOYMENT-
+-deployed site https://joss-2275.github.io/Memory-GAME2/
+-repo https://github.com/joss-2275/Memory-GAME2
