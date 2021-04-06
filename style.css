@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
 
 
@@ -11,13 +11,15 @@ html {
 }
 
 body {
-    font-family: Roboto, serif; 
+    font-family: Anton, serif; 
     margin: 0 auto;
-    background: radial-gradient(rgb(18, 34, 255), rgb(15, 115, 247)) ;
+    background-image: url(assets/images/pexels-felix-mittermeier-956999.jpg);
+    background-size: cover;
+    
 }
 
 .page-title {
-    color: black;
+    color: #b8aaa0;
     text-align: center;
     font-size: 6em;
 }
@@ -29,7 +31,7 @@ body {
 }
 
 .game-info {
-    color: black;
+    color: #b8aaa0;
     font-size: 4em;
 }
 
@@ -82,7 +84,7 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  color: white;
+  color:#b8aaa0;
   transition: background-color 500ms, font-size 500ms;
 }
 
@@ -109,22 +111,24 @@ body {
 .card-back{
     background-color: brown;
     border-color: black;
+    border-radius: 20%;
 }
 
 .card-front {
     transform: rotateY(180deg);
+    border-radius: 20%;
 }
 
 .tick {
-    position: absolute;
-    width: 150px;
-    height: 150px;
+    position: relative;  
+    min-width: 250px;
+    min-height: 150px;
 }
 
 .match-card {
-    position: absolute;
+    position: relative;
     width: 150px;
-    height: 150px;
+    height: 150px;  
 }
 
 @media (max-width: 600px) {
