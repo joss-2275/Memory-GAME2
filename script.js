@@ -130,4 +130,3 @@ if (document.readyState === 'loading') {
 
 
 
-// lots of the Js code was done following this tutorial https://www.youtube.com/watch?v=3uuQ3g92oPQ, some parts had to be modified as parts did not work properly.
